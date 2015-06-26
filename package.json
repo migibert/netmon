@@ -1,0 +1,6 @@
+{
+  "dependencies": {    
+    "jquery": "2.1.4",
+    "vivagraphjs": "0.7.12"
+  }
+}

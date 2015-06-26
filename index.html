@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Infrastructure network</title>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="http://underscorejs.org/underscore-min.js"></script>
+        <script src="node_modules/vivagraphjs/dist/vivagraph.min.js"></script>
+        <script src="app/service.js"></script>
+        <style type="text/css" media="screen">
+            body, html, svg { width: 100%; height: 100%; overflow: hidden; }
+        </style>
+    </head>
+    <body onload="service.generate()">
+    	<button onclick="service.generate()">Refresh</button>
+    </body>
+</html>

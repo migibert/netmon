@@ -1,0 +1,37 @@
+[
+    {
+        "source": "sso-01",
+        "destination": "smtp-01",
+        "status": "OK"
+    },
+    {
+        "source": "sso-02",
+        "destination": "smtp-02",
+        "status": "OK"
+    },
+    {
+        "source": "sso-01",
+        "destination": "identity-01",
+        "status": "OK"
+    },
+    {
+        "source": "sso-01",
+        "destination": "identity-02",
+        "status": "OK"
+    },
+    {
+        "source": "sso-02",
+        "destination": "identity-01",
+        "status": "OK"
+    },
+    {
+        "source": "sso-02",
+        "destination": "identity-02",
+        "status": "OK"
+    },
+    {
+        "source": "identity-01",
+        "destination": "identity-01",
+        "status": "OK"
+    }
+]
